@@ -1,6 +1,6 @@
 {
   "name": "use-dump",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,6 @@
   "homepage": "https://github.com/tinenmi/use-dump#readme",
   "dependencies": {
     "react": "^18.2.0"
-  }
+  },
+  "devDependencies": {}
 }
