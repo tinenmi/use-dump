@@ -1,0 +1,27 @@
+{
+  "name": "use-dump",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tinenmi/use-dump.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "dump"
+  ],
+  "author": "Tinenmi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tinenmi/use-dump/issues"
+  },
+  "homepage": "https://github.com/tinenmi/use-dump#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
