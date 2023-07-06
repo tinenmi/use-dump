@@ -19,7 +19,7 @@ if (globalStateSubscribers[prop].length === 1) {
   }
 }
 
-export let useGlobalState = (prop) => {
+export let useDump = (prop) => {
   let [value, setValue] = useState(globalState[prop]);
 
   let valueChanging = useCallback((newValue) => {
@@ -43,7 +43,7 @@ export let useGlobalState = (prop) => {
   return [value, changeValue]
 }
 
-export let useGlobalStateSetup = (prop, value) => {
-  let [_, setValue] = useGlobalState(prop)
+export let useDumpSetup = (prop, value) => {
+  let [_, setValue] = useDump(prop)
   useEffect(() => { setValue(value)}, []) 
 }
